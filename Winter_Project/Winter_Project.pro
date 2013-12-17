@@ -16,12 +16,14 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     ingame.cpp \
     Timer.cpp \
-    world.cpp
+    world.cpp \
+    ship.cpp
 
 HEADERS  += mainwindow.h \
     ingame.h \
     Timer.h \
-    world.h
+    world.h \
+    ship.h
 
 FORMS    += mainwindow.ui \
     ingame.ui

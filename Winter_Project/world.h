@@ -2,17 +2,22 @@
 #define WORLD_H
 
 
+#include <vector>
+
 #include "Timer.h"
 
 
 class World
 {
 private:
+
 //instantiation of the world
 World(){
 
 
 }
+
+vector<Ship*> SpaceShips;
 
 public:
 
@@ -22,6 +27,9 @@ static World* getInstance(){
       }
       return instance;
   }
+
+
+    void updateWorld();
 
 
 };

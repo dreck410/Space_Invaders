@@ -23,6 +23,8 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::Start()
 {
     inGame* Game = new inGame();
+
+
     timer.getInstance()->getTimer()->setInterval(35);
 
     timer.getInstance()->getTimer()->start();
