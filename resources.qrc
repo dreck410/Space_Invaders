@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Winter_Project/images/Layout_of_SpaceShips - Copy (2).jpg</file>
+        <file>Winter_Project/images/Layout_of_SpaceShips - Copy (3).jpg</file>
+        <file>Winter_Project/images/Layout_of_SpaceShips - Copy (4).jpg</file>
+    </qresource>
+</RCC>

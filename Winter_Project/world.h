@@ -5,19 +5,25 @@
 #include <vector>
 
 #include "Timer.h"
+//#include "ship.h"
 
+
+using namespace std;
+
+class Ship;
 
 class World
 {
 private:
 
 //instantiation of the world
-World(){
+World();
+static World* instance;
 
 
-}
 
 vector<Ship*> SpaceShips;
+int WidthOfWorld,HeightOfWorld;
 
 public:
 
@@ -30,6 +36,12 @@ static World* getInstance(){
 
 
     void updateWorld();
+
+    void setWorldSize(int width, int height);
+
+    //getters
+    int getHeight(){return HeightOfWorld;}
+    int getWidth() {return WidthOfWorld;}
 
 
 };
